@@ -67,7 +67,7 @@ nav h1 {
   cursor: pointer;
   position: absolute;
   right: -1px;
-  top: 18%
+  /* top: 18% */
   
 }
 
@@ -95,9 +95,21 @@ img {
   line-height: 1.25;
 }
 
+/* .intro-body-text {
+  font-family: 'Wix Madefor Display', sans-serif; 
+  width: 90%; 
+  text-align: right; 
+  position: absolute;
+  right: 16px;
+  font-size: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 1.25;
+  } */
+
 input {
   border-radius: 12px;
-  color: white;
+  /* color: white; */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -209,7 +221,7 @@ input {
 }
 
 .search-btn {
-  padding: 7px 14px;
+  padding: 7px 16px;
   font-size: 18px;
   background-color: #007bff;
   color: #fff;
@@ -220,6 +232,44 @@ input {
 }
 
 .search-btn i {
-  margin-right: 8px;
+  margin-right: 0px;
 }
 
+.chart-container {
+  height: 400px; /* Set desired height */
+  width: 100%; /* Set desired width */
+}
+
+
+/* mobile style */
+
+
+/* @media (max-width: 768px) {
+  
+ 
+  .intro-body-text {
+      
+     
+  position: relative;
+      
+     
+  text-align: center;
+      
+     
+  right: initial;
+      
+     
+  top: initial;
+      
+     
+  transform: none;
+      
+     
+  margin-top: 20px;
+      
+     
+  width: 100%;
+    }
+  } */
+  
+    
